@@ -13,7 +13,7 @@ class DevelopmentConfig(BaseConfig):
     """ Development environment configurations"""
     
     TEMPLATES_AUTO_RELOAD=True
-    STRIPE_API_KEY=os.environ.get('STRIPE_API_KEY')
+    STRIPE_PUBLIC_KEY=os.environ.get('STRIPE_API_KEY')
     STRIPE_SECRET_KEY=os.environ.get('STRIPE_SECRET_KEY')
     
     
