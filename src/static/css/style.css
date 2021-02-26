@@ -1,0 +1,37 @@
+/* navbar */
+ul.navbar-nav {
+    flex-direction: unset !important;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 14px;
+    padding-left: 20px;
+}
+/* donations */
+.form-label-top {
+    width: 100%;
+    margin-left: 2px;
+    margin-bottom: 14px;
+}
+.form-check.cards label{
+    font-size: 1.3em;
+    margin-left: 0.5em;
+}
+.form-check.cards input[type=radio]{
+    transform:scale(1.5);
+}
+.form-check.cards .form-check-input {
+    position: relative;
+}
+.cards-inner {
+    margin-left: 30px;
+}
+.action-buttons {
+    padding: 20px;
+    list-style: none;
+}
