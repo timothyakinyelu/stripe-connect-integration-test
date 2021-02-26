@@ -5,6 +5,6 @@ def loadConfig(MODE):
     """ Load environment variables"""
     
     if MODE == 'development':
-        return app_config['MODE']
+        return app_config[MODE]
     else:
         return BaseConfig
