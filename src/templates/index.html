@@ -3,16 +3,19 @@
     <section>
         <div class="sr-root">
             <div class="sr-main">
-              <header class="sr-header">
-                <div class="sr-header__logo"></div>
-              </header>
-      
-              <div class="sr-payment-summary payment-view">
-                <h1 class="order-amount">Setup payouts to list your home on Kavholm</h1>
-              </div>        
-      
-                <button id="submit">Setup payouts on Stripe</button>
-              </div>
+                <header class="sr-header">
+                    <div class="sr-header__logo">
+                        Grape Scotch
+                    </div>
+                </header>
+        
+                <div class="sr-payment-summary payment-view">
+                    <h1 class="order-amount">Setup payouts to list your wine on Grape Scotch</h1>
+                </div>        
+                    <form action="{{ url_for('create-connected-account') }}" method="post">
+                        <button id="submit">Setup payouts on Stripe</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
